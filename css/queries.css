@@ -1,0 +1,61 @@
+/* 1200px */
+@media only screen and (max-width: 1200px){
+    html{
+        font-size: 8px;
+    }
+
+    .img-photo{
+        width: 15rem;
+        margin-top: 5rem;
+    }
+
+    .qualification-box{
+        margin-left: 5rem;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    html{
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .nav-section{
+        padding: 5rem 0;
+    }
+    .header-box{
+        width: 100%;
+    }
+
+    .img-photo{
+        top: 20%;
+    }
+
+    .summary-section{
+        padding-bottom: 30rem;
+    }
+
+    .experience-section{
+        padding-bottom: 45rem;
+    }
+
+    .qualification-section{
+        padding-bottom: 80rem;
+    }
+
+    .content-box{
+        margin-top: 6rem;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-checkbox__button{
+        display: block;
+    }
+
+    .list-info{
+        font-size: 2.2rem;
+        margin-top: 2rem;
+    }
+}
